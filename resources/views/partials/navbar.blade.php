@@ -12,6 +12,9 @@
                 <li class="nav-item">
                     <a class="nav-link disabaled" href="#">Sign Up</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link disabaled" href="#">Sign Up</a>
+                </li>
             </ul>
         </div>
     </div>
