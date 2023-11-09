@@ -7,13 +7,15 @@ body {
     background: url("../assets/bg-img.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-    position: absolute;
+    position: relative;
     top: 0;
     z-index: -1;
 }
 
 .navbar {
     box-shadow: 1px 2px 5px 0px rgba(255,255,255,0.5);
+    position: fixed;
+    width: 100%;
 }
 
 .heading {
@@ -27,4 +29,8 @@ body {
 
 .navbar-brand, .nav-item {
     font-size: 40px;
+}
+
+.testing {
+    height: 100vh;
 }
