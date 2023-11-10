@@ -76,6 +76,10 @@ Route::get('/', function () {
 Route::get('/detail', function () {
     return view("detail", ["name" => "Subhan Hakim", "title" => "Detail"]);
 });
+
+Route::get('/signin', function () {
+    return view("login", ["name" => "Sigin", "title" => "Login"]);
+});
 // Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
