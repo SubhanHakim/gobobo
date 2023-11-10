@@ -31,9 +31,45 @@ Route::get('/', function () {
             "image" => "assets/add_location_alt.svg"
         ]
     ];
+
+    $data_vacation = [
+        [
+            "title" => "Istana Bunga",
+            "kota" => "Bandung",
+            "country" => "Indonesia",
+            "status" => "Check",
+            "image" => "assets/bg-1.png"
+        ],      
+        [
+            "title" => "Lentera",
+            "kota" => "Flores",
+            "country" => "Indonesia",
+            "status" => "Check",
+            "image" => "assets/bg-2.png"
+        ],
+        [
+            "title" => "Virsty Villafe",
+            "kota" => "Garut",
+            "country" => "Indonesia",
+            "status" => "Check",
+            "image" => "assets/bg-3.png"
+        ],
+        [
+            "title" => "Grand Mutiara",
+            "kota" => "Tasikmalaya",
+            "country" => "Indonesia",
+            "status" => "Check",
+            "image" => "assets/bg-4.png"
+        ],
+
+        ];
+
+
+
     return view("home", [
         "title" => "Home",
-        "posts" => $data_terbaru
+        "posts" => $data_terbaru,
+        "lists" => $data_vacation
     ]);
 });
 

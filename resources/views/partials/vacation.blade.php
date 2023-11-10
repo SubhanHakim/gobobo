@@ -2,14 +2,18 @@
     <div>
         <h2>Vacation With Family</h2>
     </div>
-    <div class="card" style="width: 18rem;">
-        <img src="assets/bg-1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p>Istana Bunga</p>
-          <p>Bandung, indonesia</p>
+    <div class="display">
+        @foreach ($lists as $list)
+        <div class="card" style="width: 18rem;">
+                <img src={{$list["image"]}} class="card-img-top" alt="...">
+                <div class="text">
+                    <p>{{$list["title"]}}</p>
+                    <p>{{$list["kota"]}}, {{$list["country"]}}</p>
+                </div>
+                <div class="check">
+                    <h2>{{$list["status"]}}</h2>
+                </div>
         </div>
-        <div>
-            <h2>Check</h2>
-        </div>
-      </div>
+        @endforeach
+    </div>
 </div>
