@@ -165,22 +165,35 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all .5s ease-in-out;
 }
+/* 
+.card-popular:hover {
+    width: 250px;
+} */
 
 .box{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .card-img {
     width: 200px;
     height: 200px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
 
+.card-img:hover {
+    width: 220px;
+    height: 220px;
 }
 
 .section-popular {
     height: 100vh;
+    
 }
 
 .garis{

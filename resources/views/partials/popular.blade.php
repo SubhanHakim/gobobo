@@ -1,4 +1,4 @@
-<div class="container section-popular ">
+<div class="container section-popular">
     <div class=" d-flex flex-column w-100">
         <div class="heading d-flex w-100 justify-content-center align-items-center">
             <h1>POPULAR VILLA DESTINATIONS IN INDONESIA</h1>
