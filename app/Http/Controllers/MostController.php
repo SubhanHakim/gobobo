@@ -9,7 +9,8 @@ class MostController extends Controller
         return view("home", [
             "title" => "Home",
             "posts" => \App\Models\dataTotal::all(),
-            "lists" => \App\Models\mostPicked::all()
+            "lists" => \App\Models\mostPicked::all(),
+            "populs" => \App\Models\dataPopular::all()
         ]);
     }
 }

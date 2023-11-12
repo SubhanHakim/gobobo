@@ -19,7 +19,7 @@
 </nav>
 
 
-{{-- <script>
+<!-- {{-- <script>
     let nav = document.querySelector("nav");
 
     window.addEventListener("scroll", function() {
@@ -29,4 +29,4 @@
             nav.classList.add("", "shadow");
         }
     })
-</script> --}}
+</script> --}} -->
