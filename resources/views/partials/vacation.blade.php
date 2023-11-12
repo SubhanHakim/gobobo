@@ -1,11 +1,11 @@
-<div class="container fluid">
+<div class="container">
     <div>
         <h2>Vacation With Family</h2>
     </div>
-    <div class="display">
+    <div class="row gap-4">
         @foreach ($lists as $list)
-        <div class="card" style="width: 18rem;">
-                <img src={{$list["image"]}} class="card-img-top" alt="...">
+        <div class="card">
+                <img src={{$list["image"]}} class=" w-100 h-100" alt="...">
                 <div class="text">
                     <p>{{$list["title"]}}</p>
                     <p>{{$list["kota"]}}, {{$list["country"]}}</p>

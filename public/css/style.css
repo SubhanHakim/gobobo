@@ -62,14 +62,20 @@ section {
 
 .card {
     position: relative;
+    width: 420px;
+    border: none;
 }
 
 .check {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10px;
     background-color: #424242;
     padding: 2px 30px;
     color: white;
     border-radius: 0px 10px;
+}
+
+.card-img-top {
+    width: max-content;
 }
