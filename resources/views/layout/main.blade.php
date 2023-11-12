@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    @include('partials.navbar')
+   
     <div class="bg-image">
         @yield('container')
     </div>

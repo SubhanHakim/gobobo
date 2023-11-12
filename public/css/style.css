@@ -126,3 +126,27 @@ section {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  .container-signin {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .centered .text-signin {
+    font-size: 64px;
+    width: 250px;
+  }
+  .centered .text-center {
+    font-size: 35px;
+    width: 260px;
+  }
+
+  
