@@ -123,7 +123,6 @@ section {
     font-size: 16px;
     padding: 16px 32px;
   }
-<<<<<<< HEAD
   
 .popular{
     display: flex;
@@ -136,7 +135,7 @@ section {
     width: 200px;
     height: 200px;
 }
-=======
+
 
   .container-signin {
     position: relative;
@@ -160,5 +159,42 @@ section {
     width: 260px;
   }
 
-  
->>>>>>> d191622a1b34c31923371c69f839df0dee97be40
+.card-popular {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.section-popular {
+    height: 100vh;
+}
+
+.garis{
+    border-top: 1px solid #E5E5E5;
+}
+
+.footer h1 h3{
+    color: #888787 !important;
+}
+
+ul li{
+    color: #B0B0B0;
+}
+
+.copyright p{
+    color: #B0B0B0; 
+}

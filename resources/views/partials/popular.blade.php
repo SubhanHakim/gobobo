@@ -1,20 +1,16 @@
-<div class="container">
-    <div class="box">
-        <div class="d-flex justify-content-center">
-            <h2>POPULAR VILLA DESTINATIONS IN INDONESIA</h2>
+<div class="container section-popular ">
+    <div class=" d-flex flex-column w-100">
+        <div class="heading d-flex w-100 justify-content-center align-items-center">
+            <h1>POPULAR VILLA DESTINATIONS IN INDONESIA</h1>
         </div>
-        <div class="popular mt-5">
-            <div class="w-100 d-flex justify-content-between">
-                @foreach ($populs as $popul)
-                <div class="card-circle popul-size">
-                    <img src={{$popul["image"]}} class="rounded-circle img-fluid">
-                    <div class="">
-                        <h3>{{$popul["city"]}}</h3>
-                        <p>{{$popul["total"]}} Akomodasi</p>
-                    </div>
-                </div>
-                @endforeach
+        <div class="box">
+            @foreach ($populs as $popul)
+            <div class="card-popular">
+                <img src={{$popul["image"]}} class="card-img" alt="">
+                <h2>{{$popul["city"]}}</h2>
+                <p>{{$popul["total"]}} akomodasi</p>
             </div>
+            @endforeach
         </div>
     </div>
 </div>
