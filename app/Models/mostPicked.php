@@ -42,6 +42,13 @@ class mostPicked
             "status" => "Check",
             "image" => "assets/bg-4.png"
         ],
+        [
+            "title" => "Grand Mutiara",
+            "kota" => "Tasikmalaya",
+            "country" => "Indonesia",
+            "status" => "Check",
+            "image" => "assets/bg-4.png"
+        ],
     ];
 
     public static function all()

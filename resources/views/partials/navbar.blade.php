@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container d-flex justify-content-end">
         <a class="navbar-brand text-uppercase fw-bold" href="#">Gobobo</a>
@@ -16,3 +17,16 @@
         </div>
     </div>
 </nav>
+
+
+{{-- <script>
+    let nav = document.querySelector("nav");
+
+    window.addEventListener("scroll", function() {
+        if(window.pageYOfset > 500) {
+            nav.classList.add("bg-dark", "shadow");
+        } else {
+            nav.classList.add("", "shadow");
+        }
+    })
+</script> --}}
