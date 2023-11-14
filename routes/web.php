@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MostController;
 use App\Models\dataPopular;
+use App\Models\dataTreasure;
 use App\Models\feature;
 use App\Models\mostPicked;
 use Illuminate\Support\Facades\Route;
@@ -23,7 +24,8 @@ Route::get('/detail/{slug}', function ($slug) {
     return view("detail", [
         "title" => "Detail",
         "detail" => mostPicked::find($slug),
-        "feature" => feature::all()
+        "feature" => feature::all(),
+        "sures" => dataTreasure::all()
     ]);
 });
 

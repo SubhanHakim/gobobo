@@ -211,3 +211,9 @@ ul li{
 .copyright p{
     color: #B0B0B0; 
 }
+
+.imgtc{
+    width: 2px;
+    display: flex;
+    flex-direction: column;
+}
