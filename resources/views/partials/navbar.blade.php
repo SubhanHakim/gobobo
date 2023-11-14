@@ -8,10 +8,10 @@
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
             <ul class="navbar-nav d-flex gap-3">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sign In</a>
+                    <a class="nav-link text-white" href="/signin">Sign In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabaled" href="#">Sign Up</a>
+                    <a class="nav-link disabaled" href="/signup">Sign Up</a>
                 </li>
             </ul>
         </div>

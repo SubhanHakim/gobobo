@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\MostController;
+use App\Models\dataPopular;
+use App\Models\feature;
+use App\Models\mostPicked;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,8 +19,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MostController::class, 'index']);
 
-Route::get('/detail', function () {
-    return view("detail", ["name" => "Subhan Hakim", "title" => "Detail"]);
+Route::get('/detail/{slug}', function ($slug) {
+    return view("detail", [
+        "title" => "Detail",
+        "detail" => mostPicked::find($slug),
+        "feature" => feature::all()
+    ]);
 });
 
 Route::get('/signin', function () {

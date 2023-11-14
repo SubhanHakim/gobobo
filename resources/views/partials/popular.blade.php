@@ -5,11 +5,11 @@
         </div>
         <div class="box">
             @foreach ($populs as $popul)
-            <div class="card-popular">
-                <img src={{$popul["image"]}} class="card-img" alt="">
-                <h2>{{$popul["city"]}}</h2>
-                <p>{{$popul["total"]}} akomodasi</p>
-            </div>
+                <div class="card-popular">
+                    <img src={{ $popul['image'] }} class="card-img" alt="" href="/signin">
+                    <h2>{{ $popul['city'] }}</h2>
+                    <p>{{ $popul['total'] }} akomodasi</p>
+                </div>
             @endforeach
         </div>
     </div>
