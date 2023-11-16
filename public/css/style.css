@@ -198,3 +198,69 @@ ul li{
 .copyright p{
     color: #B0B0B0; 
 }
+
+.right {
+    margin-left: 50px !important;
+    margin-top: 50px !important; 
+    
+}
+
+ .text-sigin {
+    font-size: 55px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.form-signin {
+    width: 605px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 25px;
+  }	
+
+  label[for] {
+    font-size: 25px;
+  }
+
+  input[type=submit], select {
+    width: 150px;
+    background-color: #D9D9D9;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    justify-content: center;
+    display: block;
+    box-shadow: #424242;
+    font-size: 25px;
+  }
+
+  input[type=text] {
+    background-color: #828282;
+    cursor: pointer;
+  }
+
+  
+  .centered .fefer {
+   
+    position: relative;
+    position: relative;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #000000; /* Warna garis blok */
+    border-radius: 10px; /* Bentuk sudut blok */
+    background-color: #000000;
+  }
