@@ -10,7 +10,7 @@ class MostController extends Controller
             "title" => "Home",
             "posts" => \App\Models\dataTotal::all(),
             "lists" => \App\Models\mostPicked::all(),
-            "populs" => \App\Models\dataPopular::all()
+            "populs" => \App\Models\dataPopular::all(),
         ]);
     }
 }

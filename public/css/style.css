@@ -165,22 +165,35 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all .5s ease-in-out;
 }
+/* 
+.card-popular:hover {
+    width: 250px;
+} */
 
 .box{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .card-img {
     width: 200px;
     height: 200px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
 
+.card-img:hover {
+    width: 220px;
+    height: 220px;
 }
 
 .section-popular {
     height: 100vh;
+    
 }
 
 .garis{
@@ -199,6 +212,7 @@ ul li{
     color: #B0B0B0; 
 }
 
+<<<<<<< HEAD
 .right {
     margin-left: 50px !important;
     margin-top: 50px !important; 
@@ -264,3 +278,10 @@ input[type=text], select {
     border-radius: 10px; /* Bentuk sudut blok */
     background-color: #000000;
   }
+=======
+.imgtc{
+    width: 2px;
+    display: flex;
+    flex-direction: column;
+}
+>>>>>>> 26514688f4e8698c425bc1a0ac151396ca4e8913
