@@ -8,17 +8,17 @@ class dataTotal
 {
     private static  $data_terbaru = [
         [
-            "Title" => "travelers",
+            "title" => "travelers",
             "total" => 80409,
             "image" => "assets/bed.svg"
         ],
         [
-            "Title" => "treasure",
+            "title" => "treasure",
             "total" => 987,
             "image" => "assets/photo_camera.svg"
         ],
         [
-            "Title" => "cities",
+            "title" => "cities",
             "total" => 873,
             "image" => "assets/add_location_alt.svg"
         ]

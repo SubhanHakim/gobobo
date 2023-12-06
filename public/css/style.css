@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
 body {
     font-family: "Katibeh";
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -61,6 +62,7 @@ section {
 .card {
     position: relative;
     width: 420px;
+    height: fit-content;
     border: none;
 }
 
@@ -80,7 +82,7 @@ section {
 
 .most {
     margin-top: 100px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .incard {
@@ -111,6 +113,7 @@ section {
 
   .incard:hover .image {
     opacity: 0.3;
+    cursor: pointer;
   }
 
   .incard:hover .middle {
@@ -192,7 +195,8 @@ section {
 }
 
 .section-popular {
-    height: 100vh;
+   margin-top: 200px;
+   margin-bottom: 200px;
     
 }
 
@@ -212,7 +216,7 @@ ul li{
     color: #B0B0B0; 
 }
 
-<<<<<<< HEAD
+
 .right {
     margin-left: 50px !important;
     margin-top: 50px !important; 
@@ -243,6 +247,28 @@ input[type=text], select {
     font-size: 25px;
   }	
 
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 25px;
+  }	
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 25px;
+  }	
+
   label[for] {
     font-size: 25px;
   }
@@ -262,7 +288,18 @@ input[type=text], select {
     font-size: 25px;
   }
 
+ 
+
   input[type=text] {
+    background-color: #828282;
+    cursor: pointer;
+  }
+  input[type=email] {
+    background-color: #828282;
+    cursor: pointer;
+  }
+
+  input[type=password] {
     background-color: #828282;
     cursor: pointer;
   }
@@ -278,10 +315,25 @@ input[type=text], select {
     border-radius: 10px; /* Bentuk sudut blok */
     background-color: #000000;
   }
-=======
+
 .imgtc{
     width: 2px;
     display: flex;
     flex-direction: column;
 }
->>>>>>> 26514688f4e8698c425bc1a0ac151396ca4e8913
+
+
+.category {
+  height: 100vh;
+}
+
+.text-ellipsis {
+  max-height: 3em;
+  overflow: hidden;
+}
+
+.keterangan {
+  line-height: 18px;
+  max-height: calc (18 * 3);
+  overflow:hidden ;
+}
